@@ -1,0 +1,168 @@
+.image-container {
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-content {
+    display: flex;
+    justify-content: space-between;
+    margin-right:650px;
+}
+
+.content{
+    display:block;
+}
+.content img {
+    position:relative;
+    left:175px;
+    top:215px;
+    width: 618px; 
+    height: 128px;  
+}
+
+/* creating layers of the Iphone 13*/
+.phone {
+    position: relative;
+}
+
+.phone .layer4 {
+    position: absolute;
+    top: 1200px;
+    left: 450px;
+}
+
+.phone .layer3 {
+    position: absolute;
+    top: 80px;
+    left: 120px;
+}
+
+.phone .layer2 {
+    position: absolute;
+    top: 80px;
+    left:120px;
+}
+.phone .layer1 {
+    position: absolute;
+}
+
+
+.achievement { 
+    margin-top: 250px;
+    margin-left:120px;
+    width:569px;
+    height:357px;
+}
+
+/* features section*/
+/* Displaying all the contents in center of page.*/
+.features{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left:50px;
+}
+
+.features .featuresimg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/* Applying multiple layers the features section*/
+.features .layer7 {
+    position: absolute;
+    top: 20px;
+    left: 0;
+}
+
+.features .layer8 {
+    position: absolute;
+    top: 900px;
+    left: 600px;
+}
+
+.features .layer4 {
+    position: absolute;
+    top: 0;
+    left: 1100px;
+}
+
+.features .layer9 {
+    position: absolute;
+    top: 1300px;
+    left: 100px;
+}
+
+/*User review section*/
+.userReview {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 150px;
+    position:relative;
+    top: 2100px;    
+}
+
+.userReview .userReviewimg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.userReview .layer6 {
+    position: absolute;
+    top:170px;
+    left:70px;
+}
+
+/* FAQ section*/
+.FAQ {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 150px;
+    position:absolute;
+    top: 4200px;
+    margin-left: 150px;
+}
+
+
+/* Promotion frame section*/
+.frame img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+}
+
+
+.frame {
+    position: relative;
+    top: 4000px;
+}
+
+.frame .frameimg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.frame .layer5 {
+    position: absolute;
+    top: -200px;
+    left: -150px;
+}
+
+/* Footer section*/
+.footer {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top:6000px;
+    left:150px;
+}
+
+
